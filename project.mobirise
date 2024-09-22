@@ -1,0 +1,210 @@
+{
+  "settings": {
+    "name": "dexscreener-v2",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.18",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/dexscreener-favicon32.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://dexscreener-v2.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://dexscreener-v2.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "u5ti3ue90r",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 5,
+    "versionPublish": "5.9.18"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "DEXScreener | HOME | Official Site™",
+        "meta_descr": "WEBRealtime price charts and trading history on DEXes across Ethereum, BSC, Polygon, Avalanche, Fantom, Harmony, Cronos, Arbitrum, Optimism and more.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://dexscreener.com/\"><img src=\"@PROJECT_PATH@/assets/images/dexscreener.png\" alt=\"DEXScreener\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "up4MWLcjtd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://dexscreener.com/\"><img src=\"@PROJECT_PATH@/assets/images/dexscreener-2nd-page.jpg\" alt=\"DEXScreener\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "up4MYCuuBe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://dexscreener.com/\"><img src=\"@PROJECT_PATH@/assets/images/dexscreener-2nd-page.jpg\" alt=\"DEXScreener\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "up4MYPeVPP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://dexscreener.com/\"><img src=\"@PROJECT_PATH@/assets/images/dexscreener-2nd-page.jpg\" alt=\"DEXScreener\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "up4MYUH5Z0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n            <b><a href=\"https://dexscreener.com/\" class=\"text-primary\">DEXScreener | HOME | Official Site™</a></b></h3>\n          <div class=\"row card-box align-left\">\n            \n            \n            \n            <div class=\"item features-without-image col-12 active\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>&nbsp;<a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a>: A Comprehensive Guide for Trading</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Introduction<br>In the rapidly evolving landscape of decentralized finance (DeFi), tools that enable traders and investors to analyze and track the market are crucial. One such tool is Dexscreener. This platform provides real-time data and analytics for decentralized exchanges (DEXs), allowing users to make informed decisions. In this article, we will explore Dexscreener in depth, covering its features, functionalities, benefits, and how it fits into the broader DeFi ecosystem.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">What is Dexscreener?</a><br>Dexscreener is a powerful analytics platform designed specifically for decentralized exchanges. It aggregates data from various DEXs, offering users insights into trading pairs, price movements, volume, and liquidity. By providing a comprehensive overview of market activity, Dexscreener empowers users to identify trends and make informed trading decisions.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Key Features of Dexscreener</a><br>Real-Time Data: One of the standout features of Dexscreener is its ability to provide real-time data. Users can monitor price changes, trading volumes, and liquidity instantly, which is crucial for executing trades in a volatile market.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Multi-Chain Support: Dexscreener</a> supports multiple blockchain networks, including Ethereum, Binance Smart Chain, Polygon, and others. This multi-chain capability allows users to track various DEXs and assets across different ecosystems.<br><br>User-Friendly Interface: The platform boasts an intuitive interface that is easy to navigate. Whether you are a seasoned trader or a newcomer to DeFi, Dexscreener’s layout facilitates quick access to the information you need.<br><br>Advanced Charting Tools: <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> provides advanced charting tools that allow users to analyze price movements over different time frames. Traders can customize their charts with indicators and overlays, enabling them to conduct technical analysis effectively.<br><br>Liquidity Pools: Users can explore liquidity pools available on various DEXs, which helps them understand where their assets might perform best. Dexscreener provides detailed information about pool sizes, yields, and performance metrics.<br><br>Token Information: Each token listed on <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> includes detailed information such as market capitalization, total supply, and price history. This data is essential for evaluating the potential of different assets.<br><br>Alerts and Notifications: Users can set alerts for price movements and other significant changes in the market. This feature helps traders stay informed and react quickly to market shifts.<br><br>Community and Governance: <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> fosters a community-driven approach, allowing users to contribute feedback and suggest new features. Additionally, some aspects of the platform may be governed by its users, aligning with the decentralized ethos of DeFi.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">How Dexscreener Works</a><br>Dexscreener aggregates data from various decentralized exchanges by connecting to their respective APIs. It compiles this data in real-time, ensuring that users receive the most current information. The platform organizes this data into user-friendly charts and tables, making it easy for traders to analyze market trends and make decisions.<br><br>Data Sources<br>Dexscreener pulls data from multiple DEXs, including:<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Uniswap</a><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">SushiSwap</a><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">PancakeSwap</a><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">QuickSwap</a><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Balancer</a><br>This wide-ranging data collection ensures that users can access a comprehensive overview of market activity across different platforms.<br><br>The Importance of <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> in the DeFi Ecosystem<br>As DeFi continues to grow, the need for reliable analytics tools becomes increasingly important. Dexscreener plays a pivotal role in this ecosystem by offering transparency and data-driven insights. Here’s why Dexscreener is essential for traders and investors:<br><br>Empowerment through Information: Access to real-time data allows traders to make informed decisions rather than relying on speculation. This transparency enhances market efficiency and fosters trust within the DeFi community.<br><br>Risk Management: By analyzing price trends and market liquidity, users can better manage their risk. Dexscreener’s tools help traders identify potential entry and exit points, reducing the likelihood of losses.<br><br>Facilitating Arbitrage: Dexscreener’s multi-chain support enables users to spot arbitrage opportunities across different DEXs. Traders can exploit price discrepancies to maximize their profits.<br><br>Community Engagement: The platform encourages community feedback and participation, aligning with the decentralized principles of DeFi. This involvement can lead to the continuous improvement of the platform.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Using Dexscreener:</a> A Step-by-Step Guide<br>Step 1: Creating an Account<br>While <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> can be used without an account, creating one allows for personalized features such as alerts and notifications. The sign-up process is straightforward, requiring only an email address and password.<br><br>Step 2: Navigating the Dashboard<br>Upon logging in, users are greeted with a dashboard that displays key market metrics. The dashboard includes:<br><br>Trending Pairs: A list of the most active trading pairs on various DEXs.<br>Market Overview: A snapshot of market trends, including price movements and volume.<br>Top Gainers and Losers: A quick look at the assets that have experienced the most significant price changes.<br>Step 3: Analyzing Trading Pairs<br>Users can search for specific trading pairs using the search bar. Clicking on a pair opens a detailed view, including price charts, trading volume, and liquidity information. Users can also view historical data to identify trends.<br><br>Step 4: Setting Alerts<br>To set up alerts, navigate to the alert section and specify the conditions for notification (e.g., price threshold, volume changes). This feature helps traders stay informed about significant market movements.<br><br>Step 5: Utilizing Advanced Charting Tools<br>Dexscreener offers a range of charting tools. Users can customize their charts by selecting different indicators, time frames, and overlays. This functionality allows for comprehensive technical analysis.<br><br>Advantages of Using <a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a><br>1. Comprehensive Market Insights<br>Dexscreener aggregates data from numerous DEXs, offering a holistic view of the market. Users can quickly identify trends, which aids in making informed trading decisions.<br><br>2. Real-Time Updates<br>The real-time nature of the platform ensures that traders are always informed of the latest market movements. This feature is particularly beneficial in a volatile market where prices can change rapidly.<br><br>3. Enhanced Trading Strategies<br>With access to advanced analytics, users can develop and refine their trading strategies. Whether employing technical analysis or following market trends, Dexscreener provides the necessary tools to enhance trading performance.<br><br>4. User-Friendly Experience<br>The platform’s intuitive design makes it accessible for both novice and experienced traders. Users can easily navigate the interface and find the information they need without a steep learning curve.<br><br>5. Community-Driven Development<br>Dexscreener’s focus on community feedback ensures that the platform evolves according to user needs. This approach fosters innovation and adaptability, keeping the platform relevant in the fast-paced DeFi environment.<br><br>Challenges and Limitations<br>While Dexscreener offers numerous advantages, it is essential to acknowledge some challenges:<br><br>1. Data Overload<br>With the vast amount of data available, users may feel overwhelmed, particularly those new to trading. Understanding how to interpret data effectively is crucial.<br><br>2. Dependence on DEX APIs<br>Dexscreener relies on the availability and reliability of DEX APIs. Any disruptions or inaccuracies in these sources can impact the quality of data presented to users.<br><br>3. Market Volatility<br>DeFi markets are highly volatile, which means that even with the best tools, trading carries inherent risks. Users should approach trading with caution and consider their risk tolerance.<br><br><a href=\"https://dexscreener.com/\" class=\"text-primary\">The Future of Dexscreener</a><br>As the DeFi landscape continues to evolve, Dexscreener is well-positioned to adapt and grow. The platform may introduce new features, expand its multi-chain support, and enhance its community-driven approach.<br><br>Potential Developments<br>Integration of AI and Machine Learning: Future iterations of Dexscreener could incorporate AI to provide predictive analytics and advanced trading signals, helping users make even more informed decisions.<br><br>Expanded Educational Resources: As the DeFi space grows, providing educational materials and tutorials could help users better understand how to use the platform effectively.<br><br>Mobile Application: A mobile app could enhance accessibility, allowing users to track market activity and receive alerts on the go.<br><br>Enhanced Community Governance: Increasing user involvement in platform governance could lead to more innovative features and improvements tailored to the community's needs.<br><br>Conclusion<br><a href=\"https://dexscreener.com/\" class=\"text-primary\">Dexscreener</a> is an invaluable tool for anyone involved in decentralized finance. Its real-time data, advanced charting tools, and user-friendly interface empower traders and investors to navigate the complexities of the DeFi ecosystem effectively. As the platform continues to evolve and adapt, it will remain a key player in the analytics space, helping users make informed decisions and succeed in their trading endeavors. Whether you’re a seasoned trader or just starting your DeFi journey, Dexscreener is worth exploring for its comprehensive insights and analytics capabilities.</p>\n              </div>\n            </div>\n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "up4NnEN1q0",
+          "_anchor": "article07-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
